@@ -6,23 +6,53 @@ Include your responses to the bold questions below. Include snippets of code tha
 
 **Take a picture of your soldered panel and add it here!**
 
+![alt text](  )
+
 ## Part B. Writing to the LCD
  
 **a. What voltage level do you need to power your display?**
+3.5V
 
 **b. What voltage level do you need to power the display backlight?**
+   5V
    
 **c. What was one mistake you made when wiring up the display? How did you fix it?**
 
+Initially I wired the LCD upside down. 
+
 **d. What line of code do you need to change to make it flash your name instead of "Hello World"?**
- 
+ lcd.print("hello, world!");
 **e. Include a copy of your Lowly Multimeter code in your lab write-up.**
 
+const int rs = 12, en = 11, d4 = 5, d5 = 4, d6 = 3, d7 = 2;
+LiquidCrystal lcd(rs, en, d4, d5, d6, d7);
+int voltage = 0;
+int analogPin = A0;
+
+void setup() {
+  // set up the LCD's number of columns and rows:
+  lcd.begin(16, 2);
+  // Print a message to the LCD.
+
+}
+
+void loop() {
+  // set the cursor to column 0, line 1
+  // (note: line 1 is the second row, since counting begins with 0):
+  lcd.clear();
+  voltage = analogRead(analogPin);
+  // print the number of seconds since reset:
+  lcd.setCursor(0,1);
+  lcd.print(voltage);
+  delay(100);
+  
+}
 
 ## Part C. Using a time-based digital sensor
 
 **Upload a video of your working rotary encoder here.**
 
+![alt text](  )
 
 ## Part D. Make your Arduino sing!
 
@@ -30,6 +60,7 @@ Include your responses to the bold questions below. Include snippets of code tha
  
 **b. What song is playing?**
 
+Star Wars!
 
 ## Part E. Make your own timer
 
