@@ -6,7 +6,7 @@ Include your responses to the bold questions below. Include snippets of code tha
 
 **Take a picture of your soldered panel and add it here!**
 
-![alt text](  )
+![alt text](https://github.com/sas695/IDD-Fa19-Lab2/blob/master/Soldered%20LCD.jpg)
 
 ## Part B. Writing to the LCD
  
@@ -52,7 +52,7 @@ void loop() {
 
 **Upload a video of your working rotary encoder here.**
 
-![alt text](  )
+![alt text](https://github.com/sas695/IDD-Fa19-Lab2/blob/master/Encoder2.mov)
 
 ## Part D. Make your Arduino sing!
 
