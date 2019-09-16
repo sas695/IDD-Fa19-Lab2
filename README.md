@@ -18,7 +18,7 @@ Include your responses to the bold questions below. Include snippets of code tha
    
 **c. What was one mistake you made when wiring up the display? How did you fix it?**
 
-Initially I wired the LCD upside down. 
+Initially I wired the LCD upside down. I reversed all the wires on the LCD side.
 
 **d. What line of code do you need to change to make it flash your name instead of "Hello World"?**
  lcd.print("hello, world!");
