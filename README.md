@@ -58,6 +58,18 @@ void loop() {
 
 **a. How would you change the code to make the song play twice as fast?**
  
+ You shorten the note Duration by dividing all the values by 2.
+ 
+ int noteDurations[] = {
+  10,10,10,2,2,10,10,10,2,4, \
+  10,10,10,2,4,10,10,10,2,4};
+  
+  -->
+  
+   int noteDurations[] = {
+  5,5,5,1,1,5,5,5,1,2, \
+  5,5,5,1,2,5,5,5,1,2};
+  
 **b. What song is playing?**
 
 Star Wars!
