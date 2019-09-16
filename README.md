@@ -77,5 +77,5 @@ Star Wars!
 ## Part E. Make your own timer
 
 **a. Make a short video showing how your timer works, and what happens when time is up!**
-
+ ![alt text](https://github.com/sas695/IDD-Fa19-Lab2/blob/master/Encoder2.mov)
 **b. Post a link to the completed lab report your class hub GitHub repo.**
